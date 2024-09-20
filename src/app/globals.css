@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Font Family */
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../../src/app/fonts/SourceSans3Pro.ttf);
+  font-display: swap;
+}
+
+.sourceSans {
+  font-family: "Source Sans 3";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mouse Animation */
+
+.mouse::before {
+  animation: wheel 1.3s infinite;
+  -webkit-animation: wheel 1.3s infinite
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
