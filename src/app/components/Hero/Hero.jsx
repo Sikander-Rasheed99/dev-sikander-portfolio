@@ -138,7 +138,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <motion.div variants={staggerAnimation} initial="initial" whileInView="animate" className="social_icons bg-white h-max py-[20px] px-[6px] rounded-r-lg shadow-lg absolute left-0 flex flex-col items-center gap-4">
+            <motion.div variants={staggerAnimation} initial="initial" whileInView="animate" className="social_icons bg-white h-max py-[20px] px-[6px] rounded-r-lg shadow-lg absolute left-0 hidden md:flex flex-col items-center gap-4">
                 {social_icons.map((data, index) => (
                     <motion.div key={index} variants={socialIconAnimation}>
                         <a href={data.href} className='p-[10px] w-full h-full block rounded-lg hover:bg-[#7843e933] hover:duration-700 duration-700 ease-in-out'>
