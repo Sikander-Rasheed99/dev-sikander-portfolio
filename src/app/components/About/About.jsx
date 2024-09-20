@@ -47,12 +47,10 @@ const About = () => {
     }
     const scaleAnimationBtn = {
         initial: {
-            // scale: 0.8,
             y: '35%',
             opacity: 0,
         },
         animate: {
-            // scale: 1,
             y: 0,
             opacity: 1,
             transition: {
