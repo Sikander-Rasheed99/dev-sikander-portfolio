@@ -128,9 +128,9 @@ const Contact = () => {
                     <div className="col-span-12">
                         <div className="txt">
                             <motion.h2 variants={scaleAnimationHeading} initial="initial" whileInView="animate" className="text-center text-[39px] font-bold sourceSans uppercase tracking-widest mb-8 relative text-[#111] before:content-[''] before:absolute before:bottom-[-20px] before:left-[50%] before:translate-x-[-50%] before:h-[5px] before:w-[30px] before:bg-[#7843E9] before:rounded-2xl">Contact</motion.h2>
-                            <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className="text-[#333] text-center text-[16px] xl:text-[20px] leading-normal sourceSans lg:w-10/12 xl:w-8/12 xl:px-7 mx-auto mt-5 mb-10 lg:mt-10 xl:mb-20">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</motion.p>
+                            <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className="text-[#333] text-center text-[16px] xl:text-[20px] leading-normal sourceSans lg:w-10/12 xl:w-8/12 xl:px-7 mx-auto mt-5 mb-5 md:mb-10 lg:mt-10 xl:mb-20">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</motion.p>
                         </div>
-                        <div className="form lg:w-9/12 xl:w-8/12 mx-auto px-6 sm:px-10 py-8 rounded-[5px]">
+                        <div className="form lg:w-9/12 xl:w-8/12 mx-auto md:px-6 sm:px-10 py-8 rounded-[5px]">
                             <form>
                                 <div className="name mb-5 relative sm:mb-10">
                                     <motion.label variants={scaleAnimationPara} initial="initial" whileInView="animate" htmlFor="name" className='block text-[#666] text-[15px] tracking-wider font-[700] sourceSans mb-2'>Name</motion.label>

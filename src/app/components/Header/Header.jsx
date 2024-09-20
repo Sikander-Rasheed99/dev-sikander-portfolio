@@ -46,7 +46,7 @@ const Header = () => {
                                 <div className="w-12 h-12 rounded-full overflow-hidden bg-[#7843E9] flex items-center justify-center" >
                                     <Image src={LogoImage} alt='Sikander Rasheed' className='object-cover pt-4 pl-1' />
                                 </div>
-                                <p className='text-[18px] font-[700] sourceSans tracking-[0.7px] uppercase group-hover:text-[#7843E9] group-hover:duration-700 duration-700 ease-in-out'>Sikander R.</p>
+                                <p className='text-[18px] font-[700] sourceSans tracking-[0.7px] uppercase group-hover:text-[#7843E9] group-hover:duration-700 duration-700 ease-in-out text-black'>Sikander R.</p>
                             </Link>
                         </div>
                         <div className="lists md:block hidden">
@@ -85,7 +85,7 @@ const Header = () => {
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.5 }}
-                        className='flex flex-col bg-white overflow-hidden shadow-xl'
+                        className='flex flex-col bg-white overflow-hidden shadow-xl absolute top-[80px] w-full z-[9999999]'
                     >
                         <div className="container">
                             {lists.map((data, index) => (

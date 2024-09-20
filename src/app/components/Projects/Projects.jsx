@@ -140,7 +140,7 @@ const Projects = () => {
         }
     }
     return (
-        <section id='projects' className='py-[50px] lg:py-[90px] xl:py-[115px]'>
+        <section id='projects' className='py-[50px] lg:py-[90px] xl:py-[115px] bg-white'>
             <div className="container">
                 <div className="grid grid-cols-12">
                     <div className="col-span-12">
@@ -148,7 +148,7 @@ const Projects = () => {
                         <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className="text-[#333] text-center text-[16px] xl:text-[20px] leading-normal sourceSans lg:w-10/12 xl:w-8/12 xl:px-7 mx-auto mt-5 mb-10 lg:mt-10 xl:mb-20">Here you will find some of the personal and clients projects that I created with each project containing its own case study</motion.p>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 items-center gap-4 lg:gap-10 [&:not(:last-child)]:mb-8 sm:[&:not(:last-child)]:mb-12 md:[&:not(:last-child)]:mb-20 lg:[&:not(:last-child)]:mb-28">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 lg:gap-10 [&:not(:last-child)]:mb-8 sm:[&:not(:last-child)]:mb-12 md:[&:not(:last-child)]:mb-20 lg:[&:not(:last-child)]:mb-28">
                     {project.slice(0, initialProjects).map((data, index) => (
                         <motion.div key={index} variants={scaleAnimationHeading} initial="initial" whileInView="animate">
                             <div className="relative overflow-hidden group">
