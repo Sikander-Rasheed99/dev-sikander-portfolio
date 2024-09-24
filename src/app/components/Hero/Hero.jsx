@@ -128,7 +128,7 @@ const Hero = () => {
                             </motion.h1>
                             <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-[#333] text-[16px] sm:text-[18px] lg:text-[22px] leading-normal sourceSans lg:w-10/12 xl:w-7/12 mx-auto my-5 lg:my-10'>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</motion.p>
                         </div>
-                        <motion.div variants={scaleAnimationBtn} initial="initial" whileInView="animate" className="btn flex items-center justify-center">
+                        <motion.div variants={scaleAnimationBtn} initial="initial" whileInView="animate" className="btn flex items-center justify-center relative z-20">
                             <CTA href='#projects' text="Projects" clasName='bg-[#7843E9] text-white rounded-[5px]' />
                         </motion.div>
                         <motion.a variants={scaleAnimation} initial="initial" whileInView="animate" href="#about" className='absolute bottom-[10px] left-[50%] translate-x-[-50%]'>

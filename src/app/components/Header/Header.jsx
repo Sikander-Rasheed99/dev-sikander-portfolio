@@ -85,7 +85,7 @@ const Header = () => {
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.5 }}
-                        className='flex flex-col bg-white overflow-hidden shadow-xl absolute top-[80px] w-full z-[9999999]'
+                        className='md:hidden flex flex-col bg-white overflow-hidden shadow-xl absolute top-[80px] w-full z-[9999999]'
                     >
                         <div className="container">
                             {lists.map((data, index) => (
