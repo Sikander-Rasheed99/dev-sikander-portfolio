@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Sikander Rasheed | Frontend Web Developer",
-  description: "A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product",
+  description: "Sikander Rasheed is a Frontend Developer with 3 years of experience building fast, responsive web applications using React.js and Next.js.",
 };
 
 export default function RootLayout({ children }) {
