@@ -81,7 +81,9 @@ const Footer = () => {
                             <div className="flex flex-col-reverse sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-10 sm:gap-0">
                                 <div className="txt">
                                     <motion.h2 variants={scaleAnimationHeading} initial="initial" whileInView="animate" className='text-[18px] font-[700] sourceSans text-white tracking-[0.7px] uppercase hover:text-[#cecece] hover:duration-700 duration-700 ease-in-out mb-3'>Sikander Rasheed.</motion.h2>
-                                    <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-white text-[13px] lg:text-[16px] leading-normal sourceSans lg:w-7/12 lg:pr-10'>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</motion.p>
+                                    <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-white text-[13px] lg:text-[16px] leading-normal sourceSans'>
+                                        Frontend Developer specializing in React.js & Next.js
+                                    </motion.p>
                                 </div>
                                 <div className="socials">
                                     <motion.h3 variants={scaleAnimationHeading} initial="initial" whileInView="animate" className='text-[18px] font-[700] text-white tracking-[0.7px] uppercase hover:text-[#cecece] hover:duration-700 duration-700 ease-in-out mb-3'>Social</motion.h3>
@@ -102,7 +104,7 @@ const Footer = () => {
             </section>
             {/*Copy Right */}
             <footer className='py-[30px] bg-black'>
-                <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-center text-sm text-[#eee] text-[12px] sourceSans'>© Copyright 2024 . Made by <Link href="#banner" className='underline font-bold'>Sikander R.</Link></motion.p>
+                <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-center text-sm text-[#eee] text-[12px] sourceSans'>© Copyright {new Date().getFullYear()} . Made by <Link href="#banner" className='underline font-bold'>Sikander R.</Link></motion.p>
             </footer>
         </>
     )

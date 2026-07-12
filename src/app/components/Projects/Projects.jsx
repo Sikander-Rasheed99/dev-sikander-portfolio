@@ -27,19 +27,19 @@ const Projects = () => {
             projectImage: Project1
         },
         {
-            href: 'https://infinity-animations.vercel.app/',
+            href: 'https://www.infinityanimations.com/',
             title: "Infinity Animations",
             desc: "Infinity Animations is a creative platform for stunning animations and designs, built using frontend tools for streamlined design and responsiveness.",
             projectImage: Project3
         },
         {
-            href: 'bitwits.vercel.app',
+            href: 'https://bitwits.vercel.app/',
             title: "Bitswits",
             desc: "BitsWits offers innovative digital solutions, delivering efficient and high-quality user experiences with modern web technologies and design.",
             projectImage: Project4
         },
         {
-            href: 'bookwritingexpert-nine.vercel.app',
+            href: 'https://bookwritingexpert-nine.vercel.app/',
             title: "BookWriting Experts",
             desc: "Book Writing Experts offers professional writing, editing, and publishing services to help authors turn ideas into polished, published works efficiently.",
             projectImage: Project5
