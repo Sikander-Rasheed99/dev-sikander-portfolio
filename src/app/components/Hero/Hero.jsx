@@ -127,7 +127,7 @@ const Hero = () => {
                                 Hey, I&apos;m Sikander Rasheed
                             </motion.h1>
                             <motion.p variants={scaleAnimationPara} initial="initial" whileInView="animate" className='text-[#333] text-[16px] sm:text-[18px] lg:text-[22px] leading-normal sourceSans lg:w-10/12 xl:w-9.5/12 mx-auto my-5 lg:my-10'>
-                                I build web experiences that don't just look good — they perform, convert, and scale. 3 years of frontend craftsmanship, project after project.
+                                I build web experiences that don&apos;t just look good — they perform, convert, and scale. 3 years of frontend craftsmanship, project after project.
                             </motion.p>
                         </div>
                         <motion.div variants={scaleAnimationBtn} initial="initial" whileInView="animate" className="btn flex items-center justify-center relative z-20">
